@@ -1,4 +1,3 @@
-
 # AutoFiller Module
 This module shows which words are compatible with the text entered in line with the data it receives from any database (series). If you don't understand, you can check the usage.
 ## Why should I choose this?
@@ -11,13 +10,13 @@ To use the "AutoFiller" module in your project, you need to install it first. Yo
 
 
 ```
-npm install @Enes557/AutoFiller
+npm install autofiller
 ```
 # Usage
 To use the "AutoFiller" module in your project, you need to require it in your JavaScript file. Assuming that the module is installed in your project's "node_modules" directory, you can do this by adding the following line at the top of your file:
 
 ```js
-const filler = require('@Enes557/AutoFiller');
+const filler = require('autofiller');
 ```
 Once you've required the module, you can use the "words" object and its "check" method. Here's an example:
 ```javascript
