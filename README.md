@@ -20,9 +20,9 @@ const filler = require('autofiller');
 ```
 Once you've required the module, you can use the "words" object and its "check" method. Here's an example:
 ```javascript
-let words = filler.words(['stress','stream','steam','graphics','music','streoid'])
+let words = filler.words(['stress','stream','steam','graphics','music'])
 let string = 'stre'
-console.log(words.check(string)) // Output: [ 'stress', 'stream', 'streoid' ]
+console.log(words.check(string)) // Output: [ 'stress', 'stream' ]
 ```
 # Contributing
 If you want to contribute to the "AutoFiller" module, you can fork the repository on GitHub and make your changes. Once you're done, you can create a pull request and the maintainers will review your changes.
