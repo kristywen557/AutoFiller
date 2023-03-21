@@ -1,5 +1,5 @@
 # AutoFiller Module
-This module shows which words are compatible with the text entered in line with the data it receives from any database (series). If you don't understand, you can check the usage.
+This module shows which words are compatible with the text entered in line with the data it receives from any database (array). If you don't understand, you can check the usage.
 ## Why should I choose this?
 - 100% Stable🎯
 -  Less resource usage than others💪
