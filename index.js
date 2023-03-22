@@ -10,7 +10,7 @@ module.exports = {
                         result.push(words[i]);
                         check = true
                     }
-                    if(invalid && check == false) old.push(words[i]);
+                    if(invalid && !check) old.push(words[i]);
                 }
                 if(invalid) return {
                     result: result,
