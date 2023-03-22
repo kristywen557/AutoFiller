@@ -1,10 +1,10 @@
-const filler = require('autofiller');
-let words = filler.words(['stress','stream','steam','graphics','music','streoid'])
+const filler = require('./index');
+let words = filler.words(['stress','stream','steam','graphics','music'])
 let string = 'stre'
 console.log(words.check(string)) // Output: [ 'stress', 'stream' ]
 
 //Retrieve old data
-console.log(rwords.check(rtring))
+console.log(words.check(string,true))
 /*
 Output: {
   result: [ 'stress', 'stream' ],

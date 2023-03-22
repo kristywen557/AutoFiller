@@ -29,7 +29,7 @@ console.log(words.check(string,true))
 /*
 Output: {
   result: [ 'stress', 'stream' ],
-  old: [ 'stress', 'stream', 'steam', 'graphics', 'music', ]
+  old: [ 'steam', 'graphics', 'music' ]
 }
 */
 ```

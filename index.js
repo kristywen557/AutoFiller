@@ -5,10 +5,12 @@ module.exports = {
                 let result = [],
                 old = []
                 for (i in words) {
+                    let check = false;
                     if(words[i].includes(string)){
                         result.push(words[i]);
+                        check = true
                     }
-                    if(invalid) old.push(words[i]);
+                    if(invalid && check == false) old.push(words[i]);
                 }
                 if(invalid) return {
                     result: result,
