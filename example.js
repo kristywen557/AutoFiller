@@ -7,7 +7,7 @@ console.log(words.check(string)) // Output: [ 'stress', 'stream' ]
 console.log(rwords.check(rtring))
 /*
 Output: {
-  result: [ 'stress', 'stream', 'streoid' ],
+  result: [ 'stress', 'stream' ],
   old: [ 'stress', 'stream', 'steam', 'graphics', 'music' ]
 }
 */
