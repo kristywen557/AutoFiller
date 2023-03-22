@@ -23,6 +23,15 @@ Once you've required the module, you can use the "words" object and its "check" 
 let words = filler.words(['stress','stream','steam','graphics','music'])
 let string = 'stre'
 console.log(words.check(string)) // Output: [ 'stress', 'stream' ]
+
+//Retrieve old data
+console.log(words.check(string,true))
+/*
+Output: {
+  result: [ 'stress', 'stream' ],
+  old: [ 'stress', 'stream', 'steam', 'graphics', 'music', ]
+}
+*/
 ```
 # Contributing
 If you want to contribute to the "AutoFiller" module, you can fork the repository on GitHub and make your changes. Once you're done, you can create a pull request and the maintainers will review your changes.
