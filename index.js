@@ -1,6 +1,9 @@
 module.exports = {
     words: (words) => {
         return {
+            add: (string) => {
+                words.push(string)
+            },
             check: (string,invalid) =>{
                 let result = [],
                 old = []
