@@ -21,14 +21,17 @@ const filler = require('autofiller');
 Once you've required the module, you can use the "words" object and its "check" method. Here's an example:
 ```javascript
 let words = filler.words(['stress','stream','steam','graphics','music'])
-let string = 'stre'
-console.log(words.check(string)) // Output: [ 'stress', 'stream' ]
+let string = 'str'
+//Adding with string variable
+words.add('strings')
+
+console.log(words.check(string)) // Output: [ 'stress', 'stream', 'strings' ]
 
 //Retrieve old data
 console.log(words.check(string,true))
 /*
 Output: {
-  result: [ 'stress', 'stream' ],
+  result: [ 'stress', 'stream', 'strings' ],
   old: [ 'steam', 'graphics', 'music' ]
 }
 */
